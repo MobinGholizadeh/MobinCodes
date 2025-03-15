@@ -14,7 +14,7 @@ export default function TwitterCard({ type }) {
   let count = data?.user?.public_metrics?.tweet_count
   let username = data?.user?.username
 
-  const link = 'https://twitter.com/_ParthDesai_'
+  const link = 'https://twitter.com/_MobinGholizadeh_'
 
   return (
     <>

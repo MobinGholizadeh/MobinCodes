@@ -13,20 +13,20 @@ const Contact = () => {
         <div className="pt-10 pb-8">
           <ul className="font-semi-bold flex flex-col space-y-4">
             <ContactLink
-              href="mailto:desaiparth2000@gmail.com"
+              href="mailto:mobingithub@gmail.com"
               title="gmail"
-              icon="desaiparth2000"
+              icon="gholizadehmobin2000"
             />
             <ContactLink href="https://github.com/pycoder2000" title="github" icon="pycoder2000" />
             <ContactLink
-              href="https://twitter.com/_ParthDesai_"
+              href="https://twitter.com/_MobinGholizadeh_"
               title="twitter"
-              icon="_ParthDesai_"
+              icon="_MobinGholizadeh_"
             />
             <ContactLink
-              href="https://www.linkedin.com/in/parth-desai-2bb1b0160/"
+              href="https://www.linkedin.com/in/mobin-gholizadeh-2bb1b0160/"
               title="linkedin"
-              icon="parthdesai"
+              icon="mobingholizadeh"
             />
           </ul>
         </div>

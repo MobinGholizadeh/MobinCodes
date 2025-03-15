@@ -47,8 +47,8 @@ export default function AuthorLayout({ children, frontMatter }) {
             <div className="flex flex-col pt-3">
               <a
                 className="rounded-full border px-8 py-2 text-center text-sm font-light text-gray-700 transition-colors hover:border-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white hover:shadow dark:text-white"
-                href="https://twitter.com/messages/compose?recipient_id=4302974298&text=Hey Parth"
-                data-screen-name="@_ParthDesai_"
+                href="https://twitter.com/messages/compose?recipient_id=4302974298&text=Hey Mobin"
+                data-screen-name="@_MobinGholizadeh_"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -141,7 +141,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               projects with new people. Feel free to reach out if you have anything to talk about,
               you can reach me through{' '}
               <Link
-                href={'mailto:desaiparth2000@gmail.com'}
+                href={'mailto:mobingithub@gmail.com'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
                 Mail

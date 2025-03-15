@@ -21,7 +21,7 @@ export default function Snippets({ posts, initialDisplayPosts, pagination }) {
     <>
       <PageSEO
         title={`Snippets - ${siteMetadata.author}`}
-        description="Reuseable code snippets collected by Parth"
+        description="Reuseable code snippets collected by Mobin"
       />
       <SnippetsLayout
         posts={posts}

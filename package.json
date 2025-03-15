@@ -1,10 +1,10 @@
 {
-  "name": "parth-desai-blog",
+  "name": "mobin-gholizadeh-blog",
   "version": "1.5.6",
   "private": true,
   "author": {
-    "name": "Parth Desai",
-    "email": "desaiparth2000@gmail.com",
+    "name": "Mobin Gholizadeh",
+    "email": "mobingithub@gmail.com",
     "url": "https://musing.vercel.app/"
   },
   "scripts": {
