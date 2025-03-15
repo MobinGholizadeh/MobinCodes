@@ -28,11 +28,12 @@ export default function Story() {
                   player. The discipline, teamwork, and strategic thinking I learned there continue
                   to influence my approach to software development. As a devoted{' '}
                   <RoughNotation
+                    style={{ width: 'fit-content' }}
                     type="highlight"
                     show={true}
                     color="#FFFFFF"
                     animationDelay={1500}
-                    className="text-black dark:text-black"
+                    className="px-1 text-black dark:text-black"
                   >
                     Real Madrid fan
                   </RoughNotation>
