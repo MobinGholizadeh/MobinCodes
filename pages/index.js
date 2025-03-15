@@ -52,14 +52,24 @@ export default function Home({ posts }) {
                 animate="true"
                 type="highlight"
                 show={true}
-                color="#DE1D8D"
+                color="#FFFFFF"
                 animationDelay={1000}
                 animationDuration={2500}
-                className="text-slate-200"
+                className="text-black dark:text-black"
               >
                 thoughts, reflections & everything&nbsp;
               </RoughNotation>
               in between. Have a good read!{' '}
+              <span className="animate-float ml-2 inline-block">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="h-6 w-6 text-[#FEBE10]"
+                  fill="currentColor"
+                >
+                  <path d="M12 2L9.09 8.37L2 9.27L7 14.14L5.82 21L12 17.77L18.18 21L17 14.14L22 9.27L14.91 8.37L12 2Z" />
+                </svg>
+              </span>
               <div className="mt-8 text-slate-600 dark:text-slate-400">
                 <span className="text-sm">Press</span>{' '}
                 <span className="rounded-md bg-gray-300 p-1 text-sm text-gray-900 dark:bg-gray-400">
@@ -135,7 +145,7 @@ export default function Home({ posts }) {
               <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
                   <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r from-fuchsia-600 to-emerald-600 opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <Link href="https://mobingholizadeh.vercel.app/">
+                  <Link href="/story">
                     <span className="relative flex items-center divide-x divide-gray-600 rounded-lg bg-white px-7 py-4 leading-none dark:bg-black">
                       <span className="flex items-center space-x-5">
                         <svg
@@ -155,7 +165,7 @@ export default function Home({ posts }) {
                         <span className="pr-6 text-gray-900 dark:text-gray-100">Read my story</span>
                       </span>
                       <span className="pl-6 text-indigo-400 transition duration-200 group-hover:text-gray-900 dark:group-hover:text-gray-100">
-                        Website&nbsp;&rarr;
+                        Story&nbsp;&rarr;
                       </span>
                     </span>
                   </Link>
